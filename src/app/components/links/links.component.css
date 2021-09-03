@@ -1,0 +1,22 @@
+.center {
+  text-align: center;
+  margin: 2rem 0;
+}
+.links-content {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.title-content {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .links-content {
+    gap: 0.5rem;
+  }
+}

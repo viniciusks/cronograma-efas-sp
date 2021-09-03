@@ -1,1 +1,6 @@
-<p>links works!</p>
+<div class="center">
+  <div class="links-content" *ngFor="let info of infos">
+    <span class="col-6 title-content">{{ info.title }}</span>
+    <a class="col-6 btn btn-lg btn-primary" [href]="info.link" target="_blank">Acesse aqui</a>
+  </div>
+</div>
