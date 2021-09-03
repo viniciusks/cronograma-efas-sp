@@ -15,15 +15,15 @@ export class LinksComponent implements OnInit {
     this.infos = [
       {
         title: "Temas Específicos",
-        link: "https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09"
+        link: "https://linktr.ee/EFAS_SP2021"
       },
       {
         title: "Temas Atuais",
-        link: "https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09"
+        link: "https://linktr.ee/EFAS_SP2021"
       },
       {
         title: "Tema Central",
-        link: "https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09"
+        link: "https://linktr.ee/EFAS_SP2021"
       }
     ]
   }
