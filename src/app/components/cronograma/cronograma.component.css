@@ -1,0 +1,12 @@
+.center {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.cronograma-content {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}

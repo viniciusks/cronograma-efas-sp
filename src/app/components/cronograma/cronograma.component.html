@@ -1,1 +1,7 @@
-<p>cronograma works!</p>
+<div class="center">
+  <div class="cronograma-content" *ngFor="let info of infos">
+    <span class="col-3 title-content">{{ info.schedule }}</span>
+    <span class="col-6 title-content">{{ info.task }}</span>
+    <a class="col-3 btn btn-primary" [href]="info.link" target="_blank">{{ info.where }}</a>
+  </div>
+</div>
