@@ -1,7 +1,12 @@
 <div class="center">
-  <div class="cronograma-content" *ngFor="let info of infos">
-    <span class="col-3 title-content">{{ info.schedule }}</span>
-    <span class="col-6 title-content">{{ info.task }}</span>
-    <a class="col-3 btn btn-primary" [href]="info.link" target="_blank">{{ info.where }}</a>
+  <div *ngFor="let info of infos">
+    <div>
+      <h2>{{ info.day }}</h2>
+    </div>
+    <div class="cronograma-content" *ngFor="let activity of info.activities">
+      <span class="col-md-3 title-content"><b>{{ activity.schedule }}</b></span>
+      <span class="col-md-6 title-content">{{ activity.task }}</span>
+      <a class="col-md-3 btn btn-primary" [href]="activity.link" target="_blank">{{ activity.where }}</a>
+    </div>
   </div>
 </div>

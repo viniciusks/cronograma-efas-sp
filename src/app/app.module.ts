@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuditorioComponent } from './components/auditorio/auditorio.component';
 import { LinksComponent } from './components/links/links.component';
+import { CronogramaComponent } from './components/cronograma/cronograma.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuditorioComponent,
-    LinksComponent
+    LinksComponent,
+    CronogramaComponent
   ],
   imports: [
     BrowserModule,
