@@ -4,9 +4,9 @@
       <h2>{{ info.day }}</h2>
     </div>
     <div class="cronograma-content" *ngFor="let activity of info.activities">
-      <span class="col-md-3 title-content"><b>{{ activity.schedule }}</b></span>
-      <span class="col-md-6 title-content">{{ activity.task }}</span>
-      <a class="col-md-3 btn btn-primary" [href]="activity.link" target="_blank">{{ activity.where }}</a>
+      <span class="col-12 col-md-3 title-content"><b>{{ activity.schedule }}</b></span>
+      <span class="col-12 col-md-6 title-content">{{ activity.task }}</span>
+      <a class="col-12 col-md-3 btn btn-primary" [href]="activity.link" target="_blank">{{ activity.where }}</a>
     </div>
   </div>
 </div>

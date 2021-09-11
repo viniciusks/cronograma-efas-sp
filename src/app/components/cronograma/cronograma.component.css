@@ -18,3 +18,17 @@
 .title-content b {
   text-decoration: underline;
 }
+
+div h2 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .cronograma-content {
+    display: inline-block;
+  }
+
+  .title-content {
+    display: inline-block;
+  }
+}
