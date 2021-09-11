@@ -14,6 +14,7 @@ export class CronogramaComponent implements OnInit {
     this.infos = [
       {
         day: 'Sábado',
+        insertHr: true,
         activities: [
           {
             schedule: '13h45 às 14h00',
@@ -67,6 +68,18 @@ export class CronogramaComponent implements OnInit {
             schedule: '19h10 às 20h10',
             task: 'Tema Atual',
             where: 'Salas Simultâneas',
+            link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
+          },
+        ],
+      },
+      {
+        day: 'Domingo',
+        insertHr: false,
+        activities: [
+          {
+            schedule: '13h45 às 14h00',
+            task: 'Alegria Cristã',
+            where: 'Auditório',
             link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
           },
         ],

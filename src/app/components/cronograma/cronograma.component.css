@@ -21,6 +21,7 @@
 
 div h2 {
   font-size: 40px;
+  margin-top: 4rem;
 }
 
 @media screen and (max-width: 767px) {
