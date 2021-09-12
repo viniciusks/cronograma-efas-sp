@@ -41,7 +41,7 @@ export class CronogramaComponent implements OnInit {
             link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
           },
           {
-            schedule: '16h10 às 16h40',
+            schedule: '16h10 às 17h00',
             task: 'Tema Específico (CRIANÇA)',
             where: 'Auditório',
             link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
@@ -77,8 +77,44 @@ export class CronogramaComponent implements OnInit {
         insertHr: false,
         activities: [
           {
-            schedule: '13h45 às 14h00',
-            task: 'Alegria Cristã',
+            schedule: '08h30 às 08h45',
+            task: 'Prece e Preparação',
+            where: 'Auditório',
+            link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
+          },
+          {
+            schedule: '08h45 às 09h45',
+            task: 'PRÁTICA Lar de Idosos',
+            where: 'Auditório',
+            link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
+          },
+          {
+            schedule: '10h00 às 10h10',
+            task: 'Prece e explicação - Prática Adulto',
+            where: 'Auditório',
+            link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
+          },
+          {
+            schedule: '10h10 às 11h00',
+            task: 'PREPARAÇÃO - Práticas',
+            where: 'Salas Simultâneas',
+            link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
+          },
+          {
+            schedule: '11h00 às 12h00',
+            task: 'Práticas Adulto',
+            where: 'Auditório',
+            link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
+          },
+          {
+            schedule: '12h00 às 12h15',
+            task: 'Avaliação das práticas',
+            where: 'Auditório',
+            link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
+          },
+          {
+            schedule: '12h15 às 12h30',
+            task: 'Encerramento',
             where: 'Auditório',
             link: 'https://zoom.us/j/99151151015?pwd=SE9LWnBxckcrWm5DL0pjWGx2U0V3UT09',
           },
